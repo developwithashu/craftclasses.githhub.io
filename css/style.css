@@ -1,0 +1,656 @@
+@import url('https://fonts.cdnfonts.com/css/pt-sans-2');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+/*=====================Headre======================*/
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 30px 10px;
+    overflow: hidden;
+    height: 144px;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: black;
+   font-size:18px;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    font-family: 'PT Sans', sans-serif;
+    font-weight:700;
+  }
+  li a:hover {
+    color: black;
+    text-decoration: none;
+  }
+  .logo
+  {
+  float:left;
+  margin-top:0px;
+  color:#DC3636;
+  }
+  .logo
+  {
+    font-size:50px;
+    font-weight:700;
+  }
+  .find-btn
+  {
+  background:#DC3636;
+  border-radius:28px;
+  padding:8px 24px 8px 24px;
+  color:white;
+  position:absolute;
+  margin-top:10px;
+  margin-left:30px;
+  }
+  .find-btn a:hover
+  {
+    color:white;
+  }
+  .nav-item{
+  margin-top:10px;
+  padding-left:30px;
+  }
+  .top-nav
+  {
+  float:right;
+  margin-left:100px;
+  margin-top:-30px;
+  }
+  .top-nav li
+  {
+    padding-right:20px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434343;
+  }
+  .top-nav iconify-icon
+  {
+   padding-left:20px;
+  }
+  .ico-icon
+  {
+    padding-right:5px;
+  }
+  .middle
+  {
+    padding-left: 30px;
+  }
+  .middle li a
+  {
+    margin-top:10px;
+  padding-left:20px;
+
+  }
+
+  /*=============================End Header=================================*/
+
+  /*===================================Let's Begin================================*/
+     .mid-sec
+     {
+        background: #f5f5f5;
+        padding-top: 1px;
+        padding-bottom:50px;
+     }
+     .sec1
+     {
+        background-color: #fff;
+     }
+     .sec1-button
+     {
+        margin-right: 30px;
+        padding: 0px;
+     }
+     .ow-name
+     {
+        border:1px solid #434343;
+        border-radius:28px ;
+        padding:3px 24px 3px 24px;
+     }
+     .main-head
+     {
+        font-size: 36px;
+        font-weight: 900;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 35px;
+
+     }
+     .ow-name1
+     {
+        border-radius:28px ;
+        padding:5px 24px 5px 24px;
+        background:#f8d7d7;
+        margin-left: 20px;
+     }
+     .ow-name2
+     {
+        border-radius:28px ;
+        padding:5px 24px 5px 24px;
+        background:#b4b4b4;
+        margin-left: 20px;
+     }
+     .ow-name iconify-icon
+     {
+        color:#00ACB4;
+        font-size: 22px;
+     }
+     .main-headch
+     {
+        background-color: #fff;
+        width:1097px;
+     }
+     .main-headpink
+     {
+        background: #FDF0E4;
+     }
+     .headch
+     {
+            padding:25px 50px 20px 45px;
+     }
+     .headch p
+     {
+        font-size:18px;
+        font-weight:400;
+        font-family: 'PT Sans', sans-serif;
+     }
+     .ch-pink
+     {
+        padding:25px 50px 20px 45px;
+     }
+     .ch-pink img
+     {
+        width:146px;
+        height:146px;
+        border-radius: 100px;
+        border: 1px solid black;
+        margin-left:40px;
+     }
+     .ch-pink p
+     {
+        font-size:18px;
+        font-weight:400;
+        font-family: 'PT Sans', sans-serif;
+     }
+     .ch-pink p a:hover
+     {
+        text-decoration: none;
+     }
+     .review
+     {
+        background-color: #fff;
+        border:1px solid #DC3636;
+        border-radius:28px ;
+        padding:5px 24px 5px 24px;
+        width:202px;
+     }
+     .review a
+     {
+        color: #DC3636;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+     }
+     .review :hover
+     {
+        text-decoration: none;
+     }
+     .share
+     {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #696969;
+        padding-right:20px;
+     }
+     .social-icon
+     {
+        display: inline-block;
+     }
+     .social-icon a
+     {
+        font-size: 15px;
+    display: inline-block;
+    background: #A1A1A1;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 8px;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+     }
+     hr
+     {
+        border-top: 2px solid #828282;
+     }
+    .sched
+    {
+        font-size: 24px;
+        font-weight:900;
+        font-family: 'Montserrat', sans-serif;
+        color:#434343;
+    }
+    .time
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #434343; 
+    }
+    .time-span
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #434343; 
+        padding-left: 20px;   
+    }
+    .date-time
+    {
+        margin-top:-18px;
+        margin-left:-10px;   
+    }
+    .date
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #434343;
+        padding-right:0px;
+    }
+    .timech
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #000; 
+        padding-left: 20px;
+        text-align: center;
+    }
+    .let-bac
+    {
+        background-image: url(../image/letter.jpg);
+        height: 264px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 50px;
+    }
+    
+    .similar
+    {
+        background-color: #fff;
+        padding:25px 0px 20px 45px;
+    }
+    .similar h1
+    {
+        font-size: 24px;
+        font-weight:900;
+        font-family: 'Montserrat', sans-serif;
+        color:#434343;
+    }
+    .similar-ch
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #434343; 
+    }
+    .learn
+    {
+        color:#DC3636;
+    }
+    .sec2
+    {
+      text-align: center;
+      width: 264.12px;
+      height: 147.81px;
+      border:1px solid #434343;
+      padding:15px 20x 15px 20px;
+      border-radius:8px;
+      align-content: center;
+    }
+    .sec2 h4
+    {
+      display: inline-block;
+      font-family: 'PT Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      padding: 10px;
+      margin-top:15px;
+      position:relative;
+    }
+    .sec2 span
+    {
+      font-family: 'PT Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+    }
+    .brd
+    {
+      border-right: 1px solid black;
+    }
+    .sec2 h5
+   {
+      font-family: 'PT Sans';
+     font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background:#DC3636;
+    padding:10px 0px;
+    border-radius: 0px 0px 8px 8px;
+    margin-top: 0px;
+   }
+   .sec2-ch p
+   {
+      font-family: 'PT Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: 0.02em;
+      color: #434343;
+      border:1px solid #434343;
+      border-radius: 8px;
+      padding: 5px 0px;
+   }
+   .sec3
+   {
+      font-family: 'PT Sans';
+      letter-spacing: 0.02em;
+      font-weight: 400;
+      color: #000;
+   }
+   .sec3 iconify-icon
+   {
+      color:#DC3636;
+      padding-right: 10px;
+   }
+   .sec3-bl
+   {
+      font-weight:700;
+      color: #000;
+   }
+   .sec3-ml
+   {
+      margin-left:22px;
+   }
+   .sec3-ml1
+   {
+      margin-left:28px;
+   }
+   .sec3-ml2
+   {
+      margin-left:29px;
+   }
+   .secch3-bl
+   {
+      font-weight: 700;
+      color: #000;
+   }
+   .sec3-bcl
+   {
+      color:#DC3636;
+  
+   }
+   .brder
+   {
+      border-left: 2px solid #828282;
+   }
+   .let-content p
+   {
+      text-align:center;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+background-color: #fff;
+width: 684px;
+padding:20px 10px;
+margin-left: 20%;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 8px;   
+}
+.let-contentbl
+{
+   font-weight: 700;
+   font-size: 18px;
+   font-style: normal;
+   color:#434343;
+ 
+}
+  /*============================End Let"s BEgin=================================*/
+
+  /*============================about====================================*/
+   .remote h1
+   {
+    font-size: 24px;
+        font-weight:900;
+        font-family: 'Montserrat', sans-serif;
+        color:#434343;
+   }
+   .remote p
+   {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #434343;
+   }
+   .remote h3
+   {
+    font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color:#DC3636;
+   }
+   .remote a:hover
+   {
+    text-decoration: none;
+   }
+   .que
+   {
+    padding-left: 50px;
+   }
+   .cancel h1
+   {
+    font-size: 24px;
+        font-weight:900;
+        font-family: 'Montserrat', sans-serif;
+        color:#434343;
+   }
+   .cancel p
+   {
+    font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #434343;
+   }
+   .policy-red
+   {
+    font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color:#DC3636;
+   }
+   .policy h4
+   {
+    font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #434343;
+   }
+   .spanbold
+   {
+    color: #000;
+    font-weight:600;
+   }
+  /*============================End about====================================*/
+
+  /*=========================Footer=================================*/
+     .footer-bg
+     {
+        background-color: #434343;
+     }
+     .ft-content1
+     {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        color:#fff;
+        padding-top:100px;
+        letter-spacing: 0.05em;
+     }
+     .dashed
+     {
+        padding-left: 20px;
+        padding-right: 20px;
+     }
+     .ft-contact h1
+     {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        color:#fff;
+        letter-spacing: 0.02em;
+     }
+     .ft-contact p
+     {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color:#F39B4E;
+        letter-spacing: 0.04em;
+     }
+     .ft-contact span
+     {
+        color:#fff;
+        padding-right: 20px;
+     }
+     .ft-contact h4
+     {
+       font-family: 'PT Sans';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 22px;
+       letter-spacing: 0.01em;
+       color: #FFFFFF;
+       padding-bottom: 20px;
+     }
+     .form-mail
+     {
+      float:right;
+     }
+     .news-email h1
+     {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-top: 30px;
+     }
+     .news-email form {
+        margin-top:30px;
+        background: #fff;
+        padding: 6px 10px;
+        position: relative;
+        border-radius: 50px;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+        text-align: left;
+        width:350px;
+      }
+      .news-email form input[type=submit] {
+         position: absolute;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         border: 0;
+         background: none;
+         font-family: 'PT Sans';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 18px;
+         align-items: center;
+         text-align: center;
+         letter-spacing: 0.02em;
+         padding: 0 13px;
+         background: #F39B4E;
+         color: #fff;
+         transition: 0.3s;
+         border-radius: 28px;
+         margin:2px;
+         box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+       }
+      .news-email form input[type=email] {
+        border: 0;
+        padding: 4px 8px;
+        width: calc(100% - 100px);
+        font-family: 'PT Sans';
+        font-style: normal;
+       font-weight: 400;
+       font-size: 16px;
+       color: #787579;
+      }
+      .ftsocial-icon
+     {
+        display: inline-block;
+        float: right;
+        padding-top: 90px;
+     }
+     .ftsocial-icon a
+     {
+        font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    line-height: 1;
+    padding: 10px 0px;
+    margin-right: 8px;
+    border: 1px solid #F39B4E;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+     }
+     .ftsocial-icon a :hover
+     {
+      background-color: #F39B4E;
+     }
+     .terms
+     {
+      float:right;
+      margin-right:-140px;
+     }
+     .terms h4
+     {
+       font-family: 'PT Sans';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 22px;
+       letter-spacing: 0.01em;
+       color: #FFFFFF;
+       padding-bottom: 20px;
+       margin-top: 180px;
+     }
+  /*=============================End Footer==============================*/
